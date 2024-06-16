@@ -12,14 +12,13 @@ int main(){
 			break;
 		}
 		if(c == '\t'){
-			printf("\\t");
+			printf(" \\t ");
 		}
 		else if(c == '\b'){
 			printf("\\b");
 		}
 		else if(c == '\\'){
-			printf("\\");
-			printf("\\");
+			printf("\\\\");
 		}
 		else{
 			putchar(c);
