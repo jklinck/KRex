@@ -2,11 +2,6 @@
 // easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging
 
 
-/*
-I flipped it but there are some seg fault issues 
-
-*/
-
 #include <stdio.h>
 #define IN 1
 #define OUT 0
